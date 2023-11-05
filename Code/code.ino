@@ -198,19 +198,4 @@ void Stop() //Code to stop both the wheels
     analogWrite(11,0); 
     Serial.print("S");
 }
-void right_forward()
-{
-    analogWrite(6,output);
-    analogWrite(9,0);
-    analogWrite(10,0);
-    analogWrite(11,0);
-    Serial.print("R");
-}
-void left_forward()
-{
-    analogWrite(6,0);
-    analogWrite(9,0);
-    analogWrite(10,output);
-    analogWrite(11,0);
-    Serial.print("L");
-}
+
